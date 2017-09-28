@@ -8,11 +8,15 @@ Will you survive or will you die of dysentery?
 
 ```
 The basics:  
-- This codebase has been worked on with no testers or focus on testing in general for some time
-- worked on by a few people who are developers and subject matter experts
-- growth is expected to explode very soon, adding many more features and many more exployees to work on the codebase
+- This codebase begins with an existing app and existing set of tests
+- Tests should represent the ice cream cone model
+  - Highest number of acceptance tests
+    - At first, these should be unmaintainable Selenium crap
+  - Some number of API tests
+  - very few unit tests
+- "legacy" application, with effort put toward testing, but somewhat misguided
+
 - new test lead comes in and should choose where to focus attention first
-- owners want to see quick benefit from testing strategy chosen
 - for the first 1 rainbow worth of effort, which direction do you choose?
 ```
 
@@ -23,15 +27,15 @@ Around the back of the house you see a long line of people, all of them holding 
 
 There are two mailboxes here.
 
-The first mailbox is simply labeled "<unit tests fun word>".
+The first mailbox is simply labeled "<API/Unit Tests Fun Word>".
 
-The second is mysteriously labeled "<acceptance tests fun word>".
+The second is mysteriously labeled "<Switching to better acceptance test framework>".
 
 Both are overflowing.
 
 Choose which box to open.
 ```
 
-If you choose to spend one rainbow of effort on "<Unit Tests Fun Word>": [turn to page 23](../page-23/README.md)
+If you choose to spend one rainbow of effort on "<API/Unit Tests Fun Word>": [turn to page 23](../page-23/README.md)
 
-If you choose to spend one rainbow of effort on "<Acceptance Tests Fun Word>": [turn to page 42](../page-42/README.md)
+If you choose to spend one rainbow of effort on "<Switching to better acceptance test framework>": [turn to page 42](../page-42/README.md)
