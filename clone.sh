@@ -1,1 +1,1 @@
-git clone archive.repo cyoa-unicorns
+git clone archive.repo cyoa-kittens
