@@ -1,4 +1,4 @@
-## [cyoa-Unicorns](../page-0/README.md) >> Page 23 Chapter 2
+## [cyoa-kittens](../page-0/README.md) >> Page 23 Chapter 2
 
 ```
 The basics ...
