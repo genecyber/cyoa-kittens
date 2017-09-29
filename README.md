@@ -3,7 +3,7 @@
 ```
 The basics ...
 - given the explosion that is about to happen, this large design flaw has been decided to be a big enough issue to fix
-- break up the draw function into smaller functions (all of which can be called by draw, ultimately, but can be unit tested by themselves too
+- break up the large function into smaller functions (all of which can be called by draw, ultimately, but can be unit tested by themselves too
 - pick 3 or 4 functions to pull out, all of them should have a small number of unit tests written against them
   - 1 of these unit tests should be failing (maybe the same failing one as in the other path? double-down??)
 
