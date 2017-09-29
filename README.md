@@ -1,4 +1,4 @@
-## [cyoa-Unicorns](../page-0/README.md) >> Page 42 Chapter 2
+## [cyoa-kittens](../page-0/README.md) >> Page 42 Chapter 2
 
 ```
 You dodge to the left and fall into a jungle of acceptance tests...
@@ -17,15 +17,29 @@ The basics ...
   - faster feedback loops
  
 Test Cases that should be in this branch (cucumber/selenium tests):
-- 
+NOTE that these were written for the Runicorn game, but ideas may apply to Kittens as well
+
+- Background:
+    Given I am on the Runicorn homepage
+
+  Scenario: Gameplay is started on a new game
+    Given the start game button is active
+    And the restart button is inactive
+    When I click start game
+    Then the game starts
+
+  Scenario: Gameplay is restarted on a finished game
+    Given the start game button is inactive
+    And the restart game is active
+    When I click restart ganme
+    Then the game starts 
 
 Notes on choices:
-- Yay! We see value in shared high level tests and our test strategy is sound; let's leave these in place at a high level and focus some more on lower level tests
-- We're on a roll! Let's add a bunch more tests! Let's apply this to all levels of tests, including unit tests!
+- Yay! We see value in high level tests and our test strategy is sound; let's add new features
+- We're on a roll! Let's add a bunch more acceptance tests!
 
 ```
 
-If you choose Start Focusing on Lower Level Tests: [turn to page 8](../page-8/README.md)
+If you choose Add a new feature using BDD: [turn to page 8](../page-8/README.md)
 
-If you choose Cucumbers All The Way Down: [turn to page 17](../page-17/README.md)
-
+If you choose More Acceptance Tests: [turn to page 17](../page-17/README.md)
