@@ -26,8 +26,11 @@ Choices:
   - break down the one function into many and begin to have clearer coverage
 - keep going down unit tests path
   - leave the large function and just werite a bunch more unit tests for it
+- Unit tests are cool, and now let's focus on acceptance tests
 ```
 
 If you choose Refactor: [turn to page 13](../page-13/README.md)
 
 If you choose Double Down on Unit Tests: [turn to page 74](../page-74/README.md)
+
+If you choose begin to focus on Acceptance Tests, [turn to page 17](../page-17/README.md)
