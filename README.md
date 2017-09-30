@@ -6,7 +6,7 @@ You dodge to the left and fall into a jungle of acceptance tests...
 
 ```
 The basics ...
-- putting in the framework takes time
+- putting in the framework (cucumber) takes time
 - but ... 1 or 2 acceptance test later, there is some more clarity around the state of the application from a higher-level perspective (I mean, non-coders can see the test run and pass and see their value)
 - if all of those tests pass, though, what is the benefit?
   - domain language
@@ -17,22 +17,16 @@ The basics ...
   - faster feedback loops
  
 Test Cases that should be in this branch (cucumber/selenium tests):
-NOTE that these were written for the Runicorn game, but ideas may apply to Kittens as well
 
-- Background:
-    Given I am on the Runicorn homepage
+- Scenario: Instructions are available on home page
+    Given I am on the game home page
+    When I click on Instructions
+    Then the instructions are displayed
 
-  Scenario: Gameplay is started on a new game
-    Given the start game button is active
-    And the restart button is inactive
-    When I click start game
-    Then the game starts
-
-  Scenario: Gameplay is restarted on a finished game
-    Given the start game button is inactive
-    And the restart game is active
-    When I click restart ganme
-    Then the game starts 
+  Scenario: Clicking Play starts the game
+    Given I am on the game home page
+    When I click the Play button
+    Then a new game is displayed
 
 Notes on choices:
 - Yay! We see value in high level tests and our test strategy is sound; let's add new features
