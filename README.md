@@ -7,19 +7,18 @@ The basics ...
 - a unit testing framework has been added
 - a couple of unit tests have been written
   - Unit tests to consider
-  - If birds hit unicorn gameplay should halt
-  - If obstacles hit unicorn gameplay should halt
+    - stuff in onImageClick in main.js
 - the unit tests that were written don't even begin to cover the large function that does most of the work
 - design flaws are identified; take care of that now? Or ...
 
 Notes:
-- codebase has a large monolithic function that performs a LOT of things
-- a couple of unit tests cover very little functionality within that function
+- codebase has some design that will not be scalable
+- a couple of unit tests cover very little functionality within one function
 - adding test framework from scratch takes time, learning new testing paradigms take time
 - 1 rainbow of effort didn't get you much benefit, but does make progress toward needed tests
 
 Code that should go in here:
-- 1 or two unit tests against the draw function in the index.js file
+- 1 or two unit tests against the onImageClick in main.js
 - framework is mocha/chai
 
 Choices:
