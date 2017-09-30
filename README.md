@@ -13,11 +13,22 @@ The basics:
 
 Specifics:
 - New feature should be:
-  - 
+  - Page title should change based on whose turn it is
 - Acceptance test(s) for it should be:
-  - 
+  - Scenario: On user turn, title shows user
+    Given a game is being played
+    When it is the User's Turn
+    Then the page title displays Turn: User
+    And the content area also displays Turn: User
+
+  - Scenario: On computer turn, title shows computer
+    Given a game is being played
+    When it is the Computer's Turn
+    Then the page title displays Turn: Computer
+    And the content area also displays Turn: Computer
+
 - Bug identified should be:
-  - 
+  - Main content area for Turn should have always said User
   
 
 ```
