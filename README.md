@@ -11,10 +11,10 @@ The basics:
 - Should be something in here about defects uncovered being hard to track down and identify in the large monolithic function
 
 Test Cases:
-- 
+- Lots of acceptance tests
 
 Defect(s) uncovered:
-- 
+- identify that the words about Turn should have said "Turn: User"
 
 
 ```
